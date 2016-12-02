@@ -61,6 +61,6 @@ Template.showProblem.helpers({
     problemEnds: function() {
         var diff = this.activeTo - getTickingSecond();
         var duration = moment.duration(diff, 'milliseconds');
-        return duration.hours() + ' timer, ' + duration.minutes() + ', minutter og ' + duration.seconds() + ' sekunder';
+        return duration.hours() + ' timer, ' + duration.minutes() + ' minutter og ' + duration.seconds() + ' sekunder';
     }
 });
